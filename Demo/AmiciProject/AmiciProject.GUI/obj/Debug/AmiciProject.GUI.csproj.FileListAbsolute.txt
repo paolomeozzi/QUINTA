@@ -1,0 +1,12 @@
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.GUI\bin\Debug\AmiciProject.GUI.exe.config
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.GUI\bin\Debug\AmiciProject.GUI.exe
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.GUI\bin\Debug\AmiciProject.GUI.pdb
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.GUI\bin\Debug\AmiciProject.Core.dll
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.GUI\bin\Debug\AmiciProject.Core.pdb
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.GUI\obj\Debug\AmiciProject.GUI.csprojResolveAssemblyReference.cache
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.GUI\obj\Debug\AmiciProject.GUI.Form1.resources
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.GUI\obj\Debug\AmiciProject.GUI.Properties.Resources.resources
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.GUI\obj\Debug\AmiciProject.GUI.csproj.GenerateResource.Cache
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.GUI\obj\Debug\AmiciProject.GUI.exe
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.GUI\obj\Debug\AmiciProject.GUI.pdb
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.GUI\bin\Debug\AmiciII.mdb

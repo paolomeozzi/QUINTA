@@ -1,0 +1,10 @@
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.ConsoleUI\bin\Debug\AmiciProject.ConsoleUI.exe.config
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.ConsoleUI\bin\Debug\Amici.mdb
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.ConsoleUI\bin\Debug\AmiciII.mdb
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.ConsoleUI\bin\Debug\AmiciProject.ConsoleUI.exe
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.ConsoleUI\bin\Debug\AmiciProject.ConsoleUI.pdb
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.ConsoleUI\bin\Debug\AmiciProject.Core.dll
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.ConsoleUI\bin\Debug\AmiciProject.Core.pdb
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.ConsoleUI\obj\Debug\AmiciProject.ConsoleUI.csprojResolveAssemblyReference.cache
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.ConsoleUI\obj\Debug\AmiciProject.ConsoleUI.exe
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.ConsoleUI\obj\Debug\AmiciProject.ConsoleUI.pdb

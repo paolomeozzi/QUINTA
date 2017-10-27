@@ -1,0 +1,5 @@
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.Core\bin\Debug\AmiciProject.Core.dll
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.Core\bin\Debug\AmiciProject.Core.pdb
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.Core\obj\Debug\AmiciProject.Core.dll
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.Core\obj\Debug\AmiciProject.Core.pdb
+F:\ISIS\DEMO&LIBRERIE\AmiciProject\AmiciProject.Core\obj\Debug\AmiciProject.Core.csprojResolveAssemblyReference.cache
