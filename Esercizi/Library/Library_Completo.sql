@@ -44,7 +44,7 @@ CREATE TABLE [dbo].[Genres](
 CREATE TABLE [dbo].[Books](
 	[BookId] INT IDENTITY,
 	[Title] NVARCHAR(160) NOT NULL,
-	[PubblicationDate] DATETIME,
+	[PublicationDate] DATETIME,
 	[AvailableCount] INT NOT NULL,
 	[GenreId] INT NOT NULL,
 	[CoverFileName] NVARCHAR(70),
@@ -126,10 +126,10 @@ ALTER TABLE [dbo].[AuthorsNote]
  	ADD CONSTRAINT [FK_AuthorPhotoAuthor] FOREIGN KEY ([AuthorId]) REFERENCES [Authors]([AuthorId]) ON DELETE NO ACTION ON UPDATE NO ACTION
 
 ALTER TABLE [dbo].[Publications]
- 	ADD CONSTRAINT [FK_PubblicationAuthor] FOREIGN KEY ([AuthorId]) REFERENCES [Authors]([AuthorId]) ON DELETE NO ACTION ON UPDATE NO ACTION
+ 	ADD CONSTRAINT [FK_PublicationAuthor] FOREIGN KEY ([AuthorId]) REFERENCES [Authors]([AuthorId]) ON DELETE NO ACTION ON UPDATE NO ACTION
 
 ALTER TABLE [dbo].[Publications]
- 	ADD CONSTRAINT [FK_PubblicationBook] FOREIGN KEY ([BookId]) REFERENCES [Books]([BookId]) ON DELETE NO ACTION ON UPDATE NO ACTION
+ 	ADD CONSTRAINT [FK_PublicationBook] FOREIGN KEY ([BookId]) REFERENCES [Books]([BookId]) ON DELETE NO ACTION ON UPDATE NO ACTION
 
 ALTER TABLE [dbo].[Loans]
  	ADD CONSTRAINT [FK_LoanBook] FOREIGN KEY ([BookId]) REFERENCES [Books]([BookId]) ON DELETE NO ACTION ON UPDATE NO ACTION
@@ -197,27 +197,27 @@ INSERT INTO [dbo].[Authors] ([FirstName],[LastName]) VALUES ('Patricia','Cornwel
 
 /* BOOKS */
 
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Fondazione','2003/03/01',3,1,'Fondazione.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Il gioco di Ender','2013/10/10',1,1,'Il gioco di Ender.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Fondazione e Terra','1994/01/01',1,1,'Fondazione e Terra.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Il mondo infestato dai demoni','2001/07/10',1,5,'Il mondo infestato dai demoni.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Le armi di Isher',NULL,1,1,'Le armi di Isher.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Il figlio del tempo','1986/01/01',2,1,'Il figlio del tempo.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('La prima guerra mondiale','2001/01/01',2,6,'La prima guerra mondiale.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('L''orologiaio cieco','2006/07/19',1,5,'L''orologiaio cieco.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Alla conquista del monte improbabile','2003/03/01',1,5,'Alla conquista del monte improbabile.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Gli alberi non crescono fino in cielo','1996/01/01',1,5,'Gli alberi non crescono fino in cielo.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Il pollice del panda','2001/01/01',1,5,'Il pollice del panda.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Otto piccoli porcellini','1994/01/01',1,5,'Otto piccoli porcellini.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('L''istinto del linguaggio','1994/01/01',1,5,'L''istinto del linguaggio.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('L''armonia meravigliosa','1998/01/01',1,5,'L''armonia meravigliosa.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('L''origine delle specie','1844/01/01',3,5,'L''origine delle specie.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Storia di una sconfitta','1971/01/01',1,6,'Storia di una sconfitta.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('La Divina Commedia','2001/01/01',3,7,'La Divina Commedia.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('La Divina Commedia - Inferno','1998/01/01',2,7,'La Divina Commedia - Inferno.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('I promessi sposi','1995/01/01',3,7,'I promessi sposi.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Il signore degli anelli - Il ritorno del Re','2005/01/27',2,2,'Il signore degli anelli - Il ritorno del Re.jpg')
-INSERT INTO [dbo].[Books] ([Title],[PubblicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Letto d''ossa','2012/01/02',1,4,'Letto d''ossa.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Fondazione','2003/03/01',3,1,'Fondazione.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Il gioco di Ender','2013/10/10',1,1,'Il gioco di Ender.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Fondazione e Terra','1994/01/01',1,1,'Fondazione e Terra.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Il mondo infestato dai demoni','2001/07/10',1,5,'Il mondo infestato dai demoni.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Le armi di Isher',NULL,1,1,'Le armi di Isher.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Il figlio del tempo','1986/01/01',2,1,'Il figlio del tempo.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('La prima guerra mondiale','2001/01/01',2,6,'La prima guerra mondiale.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('L''orologiaio cieco','2006/07/19',1,5,'L''orologiaio cieco.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Alla conquista del monte improbabile','2003/03/01',1,5,'Alla conquista del monte improbabile.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Gli alberi non crescono fino in cielo','1996/01/01',1,5,'Gli alberi non crescono fino in cielo.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Il pollice del panda','2001/01/01',1,5,'Il pollice del panda.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Otto piccoli porcellini','1994/01/01',1,5,'Otto piccoli porcellini.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('L''istinto del linguaggio','1994/01/01',1,5,'L''istinto del linguaggio.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('L''armonia meravigliosa','1998/01/01',1,5,'L''armonia meravigliosa.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('L''origine delle specie','1844/01/01',3,5,'L''origine delle specie.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Storia di una sconfitta','1971/01/01',1,6,'Storia di una sconfitta.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('La Divina Commedia','2001/01/01',3,7,'La Divina Commedia.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('La Divina Commedia - Inferno','1998/01/01',2,7,'La Divina Commedia - Inferno.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('I promessi sposi','1995/01/01',3,7,'I promessi sposi.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Il signore degli anelli - Il ritorno del Re','2005/01/27',2,2,'Il signore degli anelli - Il ritorno del Re.jpg')
+INSERT INTO [dbo].[Books] ([Title],[PublicationDate],[AvailableCount],[GenreId],[CoverFileName]) VALUES ('Letto d''ossa','2012/01/02',1,4,'Letto d''ossa.jpg')
 
 /*#EASYQUERY: Insert books*/
 
@@ -353,5 +353,5 @@ INSERT INTO [dbo].[AuthorsNote] ([AuthorId],[Photo],[Biography])
 	OPENROWSET(BULK'E:\_Library\AuthorsNote\Photo\Patricia Cornwell.jpg', SINGLE_BLOB) AS [Photo],
 	OPENROWSET(BULK'E:\_Library\AuthorsNote\Biography\Patricia Cornwell.txt', SINGLE_CLOB) AS [Biography]
 
-/*#EASYQUERY: Insert authors note*/
+
 
