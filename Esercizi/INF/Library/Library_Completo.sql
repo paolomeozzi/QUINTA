@@ -7,7 +7,7 @@
 /*******************************************************************************
  Drop database if it exists
 ********************************************************************************/
-
+USE Master
 
 IF EXISTS (SELECT name FROM master.dbo.sysdatabases WHERE name = 'Library')
 BEGIN
@@ -287,6 +287,71 @@ INSERT INTO [dbo].[Loans] ([BookId],[AffiliatedId],[LoanDate],[ReturnDate]) VALU
 /*#EASYQUERY: Insert loans*/
 
 /* Author's photo*/
+
+INSERT INTO [dbo].[AuthorsNote] ([AuthorId],[Photo],[Biography]) 
+	SELECT 1,* FROM
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Photo\Isaac Asimov.jpg', SINGLE_BLOB) AS [Photo],
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Biography\Isaac Asimov.txt', SINGLE_CLOB) AS [Biography]
+INSERT INTO [dbo].[AuthorsNote] ([AuthorId],[Photo],[Biography]) 
+	SELECT 2,* FROM
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Photo\Orson Scott Card.jpg', SINGLE_BLOB) AS [Photo],
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Biography\Orson Scott Card.txt', SINGLE_CLOB) AS [Biography]
+INSERT INTO [dbo].[AuthorsNote] ([AuthorId],[Photo],[Biography]) 
+	SELECT 3,* FROM
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Photo\Carl Sagan.jpg', SINGLE_BLOB) AS [Photo],
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Biography\Carl Sagan.txt', SINGLE_CLOB) AS [Biography]
+INSERT INTO [dbo].[AuthorsNote] ([AuthorId],[Photo],[Biography]) 
+	SELECT 4,* FROM
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Photo\Alfred Van Vogt.jpg', SINGLE_BLOB) AS [Photo],
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Biography\Alfred Van Vogt.txt', SINGLE_CLOB) AS [Biography]
+INSERT INTO [dbo].[AuthorsNote] ([AuthorId],[Photo],[Biography]) 
+	SELECT 5,* FROM
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Photo\Stephen King.jpg', SINGLE_BLOB) AS [Photo],
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Biography\Stephen King.txt', SINGLE_CLOB) AS [Biography]
+INSERT INTO [dbo].[AuthorsNote] ([AuthorId],[Photo],[Biography]) 
+	SELECT 6,* FROM
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Photo\Robert Silverberg.jpg', SINGLE_BLOB) AS [Photo],
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Biography\Robert Silverberg.txt', SINGLE_CLOB) AS [Biography]
+INSERT INTO [dbo].[AuthorsNote] ([AuthorId],[Photo],[Biography]) 
+	SELECT 7,* FROM
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Photo\Richard Dawkins.jpg', SINGLE_BLOB) AS [Photo],
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Biography\Richard Dawkins.txt', SINGLE_CLOB) AS [Biography]
+INSERT INTO [dbo].[AuthorsNote] ([AuthorId],[Photo],[Biography]) 
+	SELECT 8,* FROM
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Photo\Basil Liddel Hart.jpg', SINGLE_BLOB) AS [Photo],
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Biography\Basil Liddel Hart.txt', SINGLE_CLOB) AS [Biography]
+INSERT INTO [dbo].[AuthorsNote] ([AuthorId],[Photo],[Biography]) 
+	SELECT 9,* FROM
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Photo\Stephen Gould.png', SINGLE_BLOB) AS [Photo],
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Biography\Stephen Gould.txt', SINGLE_CLOB) AS [Biography]
+INSERT INTO [dbo].[AuthorsNote] ([AuthorId],[Photo],[Biography]) 
+	SELECT 10,* FROM
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Photo\Steven Pinker.jpg', SINGLE_BLOB) AS [Photo],
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Biography\Steven Pinker.txt', SINGLE_CLOB) AS [Biography]
+INSERT INTO [dbo].[AuthorsNote] ([AuthorId],[Photo],[Biography]) 
+	SELECT 11,* FROM
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Photo\Edward Wilson.jpg', SINGLE_BLOB) AS [Photo],
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Biography\Edward Wilson.txt', SINGLE_CLOB) AS [Biography]
+INSERT INTO [dbo].[AuthorsNote] ([AuthorId],[Photo],[Biography]) 
+	SELECT 12,* FROM
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Photo\Charles Darwin.jpg', SINGLE_BLOB) AS [Photo],
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Biography\Charles Darwin.txt', SINGLE_CLOB) AS [Biography]
+INSERT INTO [dbo].[AuthorsNote] ([AuthorId],[Photo],[Biography]) 
+	SELECT 13,* FROM
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Photo\Dante Alighieri.jpg', SINGLE_BLOB) AS [Photo],
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Biography\Dante Alighieri.txt', SINGLE_CLOB) AS [Biography]
+INSERT INTO [dbo].[AuthorsNote] ([AuthorId],[Photo],[Biography]) 
+	SELECT 14,* FROM
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Photo\Alessandro Manzoni.jpg', SINGLE_BLOB) AS [Photo],
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Biography\Alessandro Manzoni.txt', SINGLE_CLOB) AS [Biography]
+INSERT INTO [dbo].[AuthorsNote] ([AuthorId],[Photo],[Biography]) 
+	SELECT 15,* FROM
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Photo\John Tolkien.jpg', SINGLE_BLOB) AS [Photo],
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Biography\John Tolkien.txt', SINGLE_CLOB) AS [Biography]
+INSERT INTO [dbo].[AuthorsNote] ([AuthorId],[Photo],[Biography]) 
+	SELECT 16,* FROM
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Photo\Patricia Cornwell.jpg', SINGLE_BLOB) AS [Photo],
+	OPENROWSET(BULK'E:\_Library\AuthorsNote\Biography\Patricia Cornwell.txt', SINGLE_CLOB) AS [Biography]
 
 
 
