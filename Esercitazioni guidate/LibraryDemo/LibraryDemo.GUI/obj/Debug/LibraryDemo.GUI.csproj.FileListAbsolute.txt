@@ -1,0 +1,36 @@
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.GUI\bin\Debug\LibraryDemo.GUI.exe.config
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.GUI\bin\Debug\LibraryDemo.GUI.exe
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.GUI\bin\Debug\LibraryDemo.GUI.pdb
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.csprojAssemblyReference.cache
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.Form1.resources
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.Properties.Resources.resources
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.csproj.GenerateResource.cache
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.exe
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.pdb
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.GUI\bin\Debug\EntityFramework.dll
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.GUI\bin\Debug\LibraryDemo.Core.dll
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.GUI\bin\Debug\LibraryDemo.Core.pdb
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.csproj.CopyComplete
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.BookForm.resources
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.AuthorForm.resources
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.NewGenreForm.resources
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.BookLoanForm.resources
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.GUI\bin\Debug\LibraryDemo.GUI.exe.config
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.GUI\bin\Debug\LibraryDemo.GUI.exe
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.GUI\bin\Debug\LibraryDemo.GUI.pdb
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.GUI\bin\Debug\EntityFramework.dll
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.GUI\bin\Debug\LibraryDemo.Core.dll
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.GUI\bin\Debug\LibraryDemo.Core.pdb
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.csprojAssemblyReference.cache
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.AuthorForm.resources
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.BookForm.resources
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.BookLoanForm.resources
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.Form1.resources
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.NewGenreForm.resources
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.Properties.Resources.resources
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.csproj.GenerateResource.cache
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.csproj.CopyComplete
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.exe
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.GUI\obj\Debug\LibraryDemo.GUI.pdb

@@ -1,0 +1,22 @@
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.ConsoleUI\bin\Debug\LibraryDemo.ConsoleUI.exe.config
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.ConsoleUI\bin\Debug\LibraryDemo.ConsoleUI.exe
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.ConsoleUI\bin\Debug\LibraryDemo.ConsoleUI.pdb
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.ConsoleUI\obj\Debug\LibraryDemo.ConsoleUI.csprojAssemblyReference.cache
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.ConsoleUI\obj\Debug\LibraryDemo.ConsoleUI.exe
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.ConsoleUI\obj\Debug\LibraryDemo.ConsoleUI.pdb
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.ConsoleUI\bin\Debug\EntityFramework.dll
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.ConsoleUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.ConsoleUI\bin\Debug\LibraryDemo.Core.dll
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.ConsoleUI\bin\Debug\LibraryDemo.Core.pdb
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.ConsoleUI\obj\Debug\LibraryDemo.ConsoleUI.csproj.CopyComplete
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.ConsoleUI\bin\Debug\LibraryDemo.ConsoleUI.exe.config
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.ConsoleUI\bin\Debug\LibraryDemo.ConsoleUI.exe
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.ConsoleUI\bin\Debug\LibraryDemo.ConsoleUI.pdb
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.ConsoleUI\bin\Debug\EntityFramework.dll
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.ConsoleUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.ConsoleUI\bin\Debug\LibraryDemo.Core.dll
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.ConsoleUI\bin\Debug\LibraryDemo.Core.pdb
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.ConsoleUI\obj\Debug\LibraryDemo.ConsoleUI.csprojAssemblyReference.cache
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.ConsoleUI\obj\Debug\LibraryDemo.ConsoleUI.csproj.CopyComplete
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.ConsoleUI\obj\Debug\LibraryDemo.ConsoleUI.exe
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.ConsoleUI\obj\Debug\LibraryDemo.ConsoleUI.pdb

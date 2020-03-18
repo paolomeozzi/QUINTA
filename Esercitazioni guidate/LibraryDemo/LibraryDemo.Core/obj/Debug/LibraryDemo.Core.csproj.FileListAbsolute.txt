@@ -1,0 +1,16 @@
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.Core\bin\Debug\LibraryDemo.Core.dll
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.Core\bin\Debug\LibraryDemo.Core.pdb
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.Core\bin\Debug\EntityFramework.dll
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.Core\obj\Debug\LibraryDemo.Core.csprojAssemblyReference.cache
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.Core\obj\Debug\LibraryDemo.Core.csproj.CopyComplete
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.Core\obj\Debug\LibraryDemo.Core.dll
+C:\Users\paolo\source\repos\LibraryDemo\LibraryDemo.Core\obj\Debug\LibraryDemo.Core.pdb
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.Core\bin\Debug\LibraryDemo.Core.dll
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.Core\bin\Debug\LibraryDemo.Core.pdb
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.Core\bin\Debug\EntityFramework.dll
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.Core\obj\Debug\LibraryDemo.Core.csprojAssemblyReference.cache
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.Core\obj\Debug\LibraryDemo.Core.csproj.CopyComplete
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.Core\obj\Debug\LibraryDemo.Core.dll
+C:\Documents\_ISIS\5 INF\INF\Live EF\LibraryDemo\LibraryDemo.Core\obj\Debug\LibraryDemo.Core.pdb
